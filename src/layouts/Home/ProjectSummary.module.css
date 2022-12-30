@@ -45,6 +45,9 @@
 
   @nest .summary[data-alternate='true'] & {
     grid-template-columns: 1fr var(--textColumnWidth);
+    max-width: 1300px;
+    justify-content: space-between;
+    grid-column-gap: calc(var(--space5XL) + 35px);
   }
 
   @media (--mediaLaptop) {

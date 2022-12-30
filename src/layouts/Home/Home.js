@@ -6,6 +6,7 @@ import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg'
 import gamestackTexture from 'assets/gamestack-login.jpg';
 import gfgImage from 'assets/gfg.png';
 import GDSCImage from 'assets/gdsc.png';
+import codechefImage from 'assets/codechef.png';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
@@ -135,7 +136,7 @@ export const Home = () => {
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
+              srcSet: [codechefImage, codechefImage],
               placeholder: sliceTexturePlaceholder,
             },
           ],
