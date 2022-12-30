@@ -83,9 +83,9 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
+        title="Geeks For Geeks"
         description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        buttonText="Follow Us"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -104,9 +104,9 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
+        title="Google Developer Student Club"
         description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
+        buttonText="Follow Us"
         buttonLink="https://gamestack.hamishw.com"
         model={{
           type: 'phone',
@@ -128,9 +128,9 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
+        title="Codechef"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        buttonText="Follow Us"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
