@@ -21,6 +21,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
+// const disciplines = ['Strives', 'Achieves', 'Learn'];
 const disciplines = ['Explore', 'Learn', 'Conquer', 'Inspire', 'Achieve'];
 
 export const Home = () => {
@@ -133,7 +134,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="CodeChef"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        description="Building a coterie of enthusiastic peeps to code,  practice, compete and enhance fun velocity."
         buttonText="Follow Us"
         buttonLink="https://instagram.com/abesec.codechef?igshid=MDM4ZDc5MmU="
         model={{

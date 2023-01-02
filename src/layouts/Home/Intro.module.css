@@ -36,12 +36,12 @@
 .name {
   text-transform: uppercase;
   font-size: calc((24 / 16) * 1rem);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
   color: var(--colorTextBody);
   margin-bottom: var(--space2XL);
-  margin-top: 0;
+  margin-top: 15px;
   font-weight: var(--fontWeightMedium);
-  line-height: 1;
+  line-height: 1.4;
   opacity: 0;
   transition: opacity var(--durationL) var(--bezierFastoutSlowin) 0.2s;
 
