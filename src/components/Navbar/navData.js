@@ -1,14 +1,14 @@
 export const navLinks = [
   {
-    label: 'Projects',
+    label: 'Clubs',
     pathname: '/#project-1',
   },
   {
-    label: 'Details',
+    label: 'About',
     pathname: '/#details',
   },
   {
-    label: 'Articles',
+    label: 'Events',
     pathname: '/articles',
   },
   {
@@ -24,9 +24,9 @@ export const socialLinks = [
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
+    label: 'discord',
+    url: 'https://discord.gg/V8FHS43pJD',
+    icon: 'discord',
   },
   {
     label: 'Github',

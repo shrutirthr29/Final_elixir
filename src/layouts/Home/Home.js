@@ -21,7 +21,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Explore', 'Learn', 'Conquer', 'Inspire', 'Achieve'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -86,10 +86,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Geeks For Geeks"
+        title="GeeksForGeeks"
         description="Designing a platform to help educators build better online courseware"
         buttonText="Follow Us"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://www.instagram.com/geeksforgeeks_abesec/?igshid=MDM4ZDc5MmU%3D"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -110,7 +110,7 @@ export const Home = () => {
         title="Google Developer Student Club"
         description="Design and development for a video game tracking app built in React Native"
         buttonText="Follow Us"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://www.instagram.com/gdsc_abesec/"
         model={{
           type: 'laptop',
           alt: 'App login screen',
@@ -127,7 +127,7 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Codechef"
+        title="CodeChef"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="Follow Us"
         buttonLink="/projects/slice"
