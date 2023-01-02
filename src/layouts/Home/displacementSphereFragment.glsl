@@ -43,7 +43,6 @@ void main() {
 
   vec3 color = vec3(vUv * (0.4 - 2.0 * noise), 1.0);
   vec3 finalColors = vec3(color.b * 1.6, color.b * 2.1, color.g * 1.8);
-  //vec3 finalColors = vec3(color.b * 1.0, color.r * 7.5, color.b * 0.8);
   vec4 diffuseColor = vec4(cos(finalColors * noise * 3.0), 1.0);
   ReflectedLight reflectedLight = ReflectedLight(vec3(0.0), vec3(0.0), vec3(0.0), vec3(0.0));
   vec3 totalEmissiveRadiance = emissive;

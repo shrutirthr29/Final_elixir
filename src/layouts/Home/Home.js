@@ -93,7 +93,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="GeeksForGeeks"
-        description="Designing a platform to help educators build better online courseware"
+        description="You say Savior; we hear GFG. Whether you're exploring domains, building communities, or solving challenges, GFG ABESEC is your one-stop solution. Here we learn,  collaborate, and explore, but more importantly, we grow."
         buttonText="Follow Us"
         buttonLink="https://www.instagram.com/geeksforgeeks_abesec/?igshid=MDM4ZDc5MmU%3D"
         model={{

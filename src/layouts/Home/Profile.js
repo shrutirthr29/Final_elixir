@@ -22,16 +22,23 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="About Elixir" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      {/* I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>. */}
-      Elixir as a community thrives with the help of tech enthusiasts and many other
-      innovators who have a niche for technology. Here, we learn, explore, collaborate,
-      and more than that, have fun. Peer learning and support have always been the pillars
-      of Elixir. Here's to experiencing many "Hello World" moments together.
+      Elixir aces as an unparalleled community consisting of the greatest minds of our
+      college. It has people ranging from tech domains to non-tech sectors, all of whom
+      are competent in their respective areas and strive together to make Elixir an
+      astounding entity. With the perfect space to learn, collaborate, and explore, you
+      are bound to experience many "Hello World" moments here. It is established in
+      accordance with three clubs:
     </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      • GeeksforGeeks ABESEC CHAPTER <br /> • Google Developer Student Clubs ABESEC <br />
+      • CodeChef ABESEC CHAPTER
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      With our aim to provide our students an environment that fosters self-growth, we are
+      proud to call ourselves a community FOR THE STUDENTS, BY THE STUDENTS, AND OF THE
+      STUDENTS.
+    </Text>
+
     {/* <Text className={styles.description} data-visible={visible} size="l" as="p">
       I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
       <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
@@ -39,11 +46,11 @@ const ProfileText = ({ visible, titleId }) => (
       prototype and validate experiences. If you’re interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
     </Text> */}
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    {/* <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
       <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
-    </Text>
+    </Text> */}
   </Fragment>
 );
 
