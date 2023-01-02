@@ -3,7 +3,8 @@
   --buttonFontSize: calc((18 / 16) * 1rem);
   --buttonFocusWidth: 4px;
   --buttonPadding: 0 var(--spaceL);
-  --buttonTextColor: rgb(var(--rgbBackground));
+  --buttonTextColor: rgb(242 242 242);
+  /* --buttonTextColor: rgb(var(--rgbBackground)); */
   --buttonTextOpacity: 1;
   --buttonLoaderDelay: 0s;
 

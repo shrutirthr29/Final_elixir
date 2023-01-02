@@ -81,6 +81,11 @@ export const Home = () => {
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
+      <Profile
+        sectionRef={details}
+        visible={visibleSections.includes(details.current)}
+        id="details"
+      />
       <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
@@ -130,7 +135,7 @@ export const Home = () => {
         title="CodeChef"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="Follow Us"
-        buttonLink="/projects/slice"
+        buttonLink="https://instagram.com/abesec.codechef?igshid=MDM4ZDc5MmU="
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -142,11 +147,11 @@ export const Home = () => {
           ],
         }}
       />
-      <Profile
+      {/* <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
         id="details"
-      />
+      /> */}
       <Footer />
     </div>
   );

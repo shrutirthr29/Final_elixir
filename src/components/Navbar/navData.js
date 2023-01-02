@@ -1,11 +1,11 @@
 export const navLinks = [
   {
-    label: 'Clubs',
-    pathname: '/#project-1',
-  },
-  {
     label: 'About',
     pathname: '/#details',
+  },
+  {
+    label: 'Clubs',
+    pathname: '/#project-1',
   },
   {
     label: 'Events',
@@ -30,7 +30,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/ElixirTechCommunity',
     icon: 'github',
   },
 ];
