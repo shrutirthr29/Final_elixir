@@ -114,7 +114,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="Google Developer Student Club"
-        description="Exploring the crux of latest developer products and platforms through hands-on workshops and events, we are a community continuing the bequest of soaring high in the sky of technology as we learn, connect, and grow together."
+        description="Exploring crux of latest developer products and platforms through hands-on workshops and events, we are a community continuing the bequest of soaring high in the sky of technology as we learn, connect, and grow together."
         buttonText="Follow Us"
         buttonLink="https://www.instagram.com/gdsc_abesec/"
         model={{
