@@ -23,7 +23,7 @@
   }
 }
 
-.logo {
+/* .logo {
   display: flex;
   position: relative;
   padding: var(--spaceS) var(--spaceS) var(--spaceL);
@@ -32,6 +32,15 @@
   @media (--mediaMobile) {
     padding-bottom: var(--spaceS);
   }
+} */
+.logo{
+  color: #cecece;
+  font-size: 12px;
+  margin-left: 43px;
+  margin-bottom: 22px;
+}
+.logo :hover{
+  color: rgb(var(--rgbAccent));
 }
 
 .nav {

@@ -141,16 +141,17 @@ export const Navbar = () => {
 
   return (
     <header className={styles.navbar} ref={headerRef}>
-      {/* <RouterLink href={route === '/' ? '/#intro' : '/'} scroll={false}>
+      <RouterLink href={route === '/' ? '/#intro' : '/'} scroll={false}>
         <a
           data-navbar-item
           className={styles.logo}
           aria-label="Hamish Williams, Designer"
           onClick={handleMobileNavClick}
         >
-          <Monogram highlight />
+          {/* <Monogram highlight /> */}
+          <h1>ELIXIR</h1>
         </a>
-      </RouterLink> */}
+      </RouterLink>
       <NavToggle onClick={() => dispatch({ type: 'toggleMenu' })} menuOpen={menuOpen} />
       <nav className={styles.nav}>
         <div className={styles.navList}>
