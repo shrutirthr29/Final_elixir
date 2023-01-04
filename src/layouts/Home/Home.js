@@ -113,36 +113,36 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Google Developer Student Club"
-        description="Exploring crux of latest developer products and platforms through hands-on workshops and events, we are a community continuing the bequest of soaring high in the sky of technology as we learn, connect, and grow together."
-        buttonText="Follow Us"
-        buttonLink="https://www.instagram.com/gdsc_abesec/"
-        model={{
-          type: 'laptop',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: [GDSCImage, GDSCImage],
-              placeholder: gamestackTexturePlaceholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
         title="CodeChef"
         description="Building a coterie of enthusiastic peeps to code,  practice, compete and enhance fun velocity."
         buttonText="Follow Us"
         buttonLink="https://instagram.com/abesec.codechef?igshid=MDM4ZDc5MmU="
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'App login screen',
           textures: [
             {
               srcSet: [codechefImage, codechefImage],
+              placeholder: gamestackTexturePlaceholder,
+            },
+          ],
+        }}
+        />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="Google Developer Student Club"
+        description="Exploring crux of latest developer products and platforms through hands-on workshops and events, we are a community continuing the bequest of soaring high in the sky of technology as we learn, connect, and grow together."
+        buttonText="Follow Us"
+        buttonLink="https://www.instagram.com/gdsc_abesec/"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: [GDSCImage, GDSCImage],
               placeholder: sliceTexturePlaceholder,
             },
           ],
