@@ -64,6 +64,12 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
           <Fragment>
             <DisplacementSphere />
             <header className={styles.text}>
+            <h7 className={styles.names} data-visible={visible} id={titleId}>
+                <DecoderText
+                  text="The tech community"
+                  delay={300}
+                />
+              </h7>
               <Heading level={0} as="h2" className={styles.title}>
                 <VisuallyHidden className={styles.label}>
                   {`Designer + ${introLabel}`}
