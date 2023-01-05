@@ -9,7 +9,7 @@ export const navLinks = [
   },
   {
     label: 'Events',
-    pathname: '/articles',
+    pathname: '/#details',
   },
   {
     label: 'Contact',
