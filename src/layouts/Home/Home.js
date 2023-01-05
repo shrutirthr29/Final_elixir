@@ -1,18 +1,6 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
 import gfgImage from 'assets/gfg.png';
 import GDSCImage from 'assets/gdsc.png';
 import codechefImage from 'assets/codechef.png';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -21,7 +9,6 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-// const disciplines = ['Strives', 'Achieves', 'Learn'];
 const disciplines = ['Explore', 'Learn', 'Conquer', 'Inspire', 'Achieve'];
 
 export const Home = () => {
@@ -73,8 +60,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="The Tech Community"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        description="Elixir aces as an unparalleled community consisting of the greatest minds of our college."
       />
       <Intro
         id="intro"
@@ -98,11 +84,11 @@ export const Home = () => {
         buttonLink="https://www.instagram.com/geeksforgeeks_abesec/?igshid=MDM4ZDc5MmU%3D"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'GFG ABESEC',
           textures: [
             {
               srcSet: [gfgImage, gfgImage],
-              placeholder: sprTexturePlaceholder,
+              placeholder: gfgImage,
             },
           ],
         }}
@@ -119,15 +105,15 @@ export const Home = () => {
         buttonLink="https://instagram.com/abesec.codechef?igshid=MDM4ZDc5MmU="
         model={{
           type: 'laptop',
-          alt: 'App login screen',
+          alt: 'CodeChef ABESEC',
           textures: [
             {
               srcSet: [codechefImage, codechefImage],
-              placeholder: gamestackTexturePlaceholder,
+              placeholder: codechefImage,
             },
           ],
         }}
-        />
+      />
       <ProjectSummary
         id="project-3"
         sectionRef={projectThree}
@@ -139,20 +125,15 @@ export const Home = () => {
         buttonLink="https://www.instagram.com/gdsc_abesec/"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'GDSC ABESEC',
           textures: [
             {
               srcSet: [GDSCImage, GDSCImage],
-              placeholder: sliceTexturePlaceholder,
+              placeholder: GDSCImage,
             },
           ],
         }}
       />
-      {/* <Profile
-        sectionRef={details}
-        visible={visibleSections.includes(details.current)}
-        id="details"
-      /> */}
       <Footer />
     </div>
   );
