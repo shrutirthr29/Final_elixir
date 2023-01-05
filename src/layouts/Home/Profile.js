@@ -21,8 +21,8 @@ const ProfileText = ({ visible, titleId }) => (
       college. It has people ranging from tech domains to non-tech sectors, all of whom
       are competent in their respective areas and strive together to make Elixir an
       astounding entity. With the perfect space to learn, collaborate, and explore, you
-      are bound to experience many "Hello World" moments here. It is established in
-      accordance with three clubs:
+      are bound to experience many &0027;Hello World&0027; moments here. It is established
+      in accordance with three clubs:
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       • GeeksforGeeks ABESEC CHAPTER <br /> • Google Developer Student Clubs ABESEC <br />
