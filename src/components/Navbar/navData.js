@@ -20,7 +20,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/CommunityElixir?t=HUeon9ryympVSDpoMvTSHg&s=09',
+    url: 'https://twitter.com/TheElixirTech',
     icon: 'twitter',
   },
   {
